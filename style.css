@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Jomhuria&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+.header-container {
+    width: 100%;
+    height: 10%;
+}
+
+.header-content {
+    width: 95%;
+    height: 100%;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-size: 4rem;
+    font-style: normal;
+
+    user-select: none;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header-links li a i {
+    font-size: 2.5rem;
+    color: #ffffff;
+
+    transition: text-shadow 0.2s linear;
+}
+
+.header-links li:hover a i {
+    text-shadow: 2px 2px 10px #ffffff;
+}
+
+.main-container {
+    width: 100%;
+    height: 70%;
+
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.main-content figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40%;
+}
+
+.main-content figure img {
+    width: 100%;
+}
+
+.main-content-section {
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content-nav {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 30px;
+}
+
+.main-content-nav li {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content-nav li label {
+    height: 100%;
+
+    padding: 0 15px;
+
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 2rem;
+    color: #ffffff;
+
+    cursor: pointer;
+
+    user-select: none;
+
+    transition: text-shadow 0.2s linear;
+}
+
+.main-content-nav li label:hover {
+    text-shadow: 2px 2px 8px #ffffff;
+}
+
+.selected {
+    width: 0;
+    height: 1px;
+
+    background-color: #ffffff;
+
+    transition: width 0.2s linear;
+}
+
+.main-content-nav li input:checked + .selected {
+    width: 100%;
+}
+
+.main-content-description {
+    width: 100%;
+
+    overflow: hidden;
+}
+
+.container {
+    padding: 20px 0;
+
+    display: flex;
+
+    width: 300%;
+    height: 400px;
+
+    transition: margin-left 0.4s linear;
+}
+
+.main-content-description p {
+    width: 100%;
+    padding: 0 10px;
+
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+hr {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.footer-container {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-container span {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1rem;
+}
